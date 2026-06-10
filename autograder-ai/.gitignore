@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# Poetry
+poetry.lock
+.cache/
+.pytest_cache/
+
+# Logs
+*.log
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.swm
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Coverage / testing
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.mypy_cache/
+.pyre/
+.pytype/

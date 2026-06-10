@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  autograder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: autograder-ai
+    env_file:
+      - .env
+    volumes:
+      # Mount input directory for assignments and submissions
+      - ./input:/app/input:ro
+      # Mount output directory for results
+      - ./output:/app/output:rw
+      # Mount for temporary files (optional, uses container's /tmp by default)
+      - /tmp:/tmp:rw
+    command: >
+      --assignment /app/input/assignment.pdf
+      --submission /app/input/submission/
+    # Uncomment if you want to keep container running
+    # stdin_open: true
+    # tty: true

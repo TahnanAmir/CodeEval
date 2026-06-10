@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Poetry
+poetry.lock
+.cache/
+.pytest_cache/
+
+# Logs
+*.log
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.swm
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Coverage / testing
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Environment files
+.env
+.env.local
+
+# Input/Output directories
+input/
+output/
+
+# Documentation
+README.md
+docs/
+
+# Temporary files
+tmp/
+temp/
