@@ -353,9 +353,3 @@ python main.py --assignment path/to/assignment.pdf --submission path/to/submissi
 - **Rubric-aware scoring** passed through the entire LangGraph evaluation workflow
 - **Multi-file submissions** staged into temp directories for the grading engine
 - **Modern UI** with shadcn/ui components, responsive dashboards, and feedback report views
-
----
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
